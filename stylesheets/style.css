@@ -1,0 +1,446 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@font-face {
+    font-family: "Biotif Black";
+    src: url(fonts/Biotif-Black.ttf);
+    src: url(fonts/Biotif-Black.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #131414;
+}
+/*
+body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #1314140a;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #66fcf275; 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #66fcf232;
+}
+header::-webkit-scrollbar{
+    display: none;
+}
+li, a, button{
+    font-family: "Biotif Black";
+    font-weight: bold;
+    font-size: 16px;    
+    color:#FFFFE5;
+    text-decoration: none;
+    transition: all 0.3s linear 0s;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 7%;
+    align-items: center;
+    margin-top: 0px;
+}
+.nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    order: 1;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 1;
+        color: #66FCF1;
+        transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      color: #66FCF1;
+      transform: scale(1.2);
+
+    }
+  
+    100% {
+      opacity: 1;
+      color: #66FCF1;
+      transform: scale(1.2);
+
+    }
+}
+
+.h:hover {
+    opacity: 1;
+    animation: bounce 1s ;
+    animation-iteration-count: infinite;
+}
+.nav li a:hover{
+    color: #66FCF1;
+}
+.fed{
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    display: inline;
+    padding: 0px 20px;
+    transition: all .25s ease-in-out;
+    display: flex;
+    align-items: center;
+    height: 8%;
+    margin-top: 15px;
+}
+
+nav ul {
+    text-transform: uppercase  ;
+    overflow: hidden;
+    transition: 1s;
+}
+.scrll{
+    display: flex;
+    align-items: center;
+    background-color: #131414;
+    transition: all .25s ease-in-out;
+    margin-left:-189px;
+    margin-right: -205px;
+    margin-top:-3px;
+    padding-bottom: -40px;
+    margin-bottom: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 8%;
+}
+
+
+.fed{
+    margin-left: 805px;
+}
+button{
+    background-color: #66FCF1;
+    color:#1f2833;
+    border: #66FCF1 hidden;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 9px 25px;
+    transition: all 0.3s ease 0s;
+}
+
+.fb button:hover{
+    background-color: #66fcf296;
+}
+
+main {
+    font-family: "Biotif Black";
+    color:#FFFFE5;
+    animation: transIn 0.72s;
+    margin-top: -5%;
+}
+div{
+    margin-top: 6.5%;
+    text-align: left;
+    padding: auto;
+    font-weight: bold;
+    align-items: center;
+}
+
+.content {
+    margin-top: 21vh;
+    margin-left: 10%;
+    
+}
+
+.hello {
+    color:#ffffff;
+    font-size: 30px;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.im{
+    margin-bottom: -25px;
+    margin-top: -1px;
+    font-size: 26px;
+    color:#66FCF1;
+}
+.name {
+    font-size: 72px;
+    color: #66FCF1;
+}
+
+.dec{
+    font-family: "Biotif";
+    font-size: 18px;
+    font-weight: 12;
+}
+
+.get_started button{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 22px;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.get_started button:hover{
+    background-color:rgba(245, 245, 220, 0);
+    padding: 7px 22px;
+    transform: scale(100%);
+    color: #66FCF1;
+}
+.cover{
+    background-image: url(pics/blank.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    margin-bottom: -6.6%;
+    animation: cober 1s;
+    /* background-attachment: fixed; */
+}
+@keyframes cober{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.content p{
+    animation: tranIn 1s;
+}
+.maincontent{
+    animation: tranIn 1.5s;
+}
+.headerabt {
+    animation: tranIn 1s;
+}
+/*
+.sklss{
+    animation: tranIn 1s;
+}
+.skillstop{
+    animation: tranIn 1.5s;
+} */
+
+@keyframes tranIn {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes welco {
+    from {
+        color: #45a29e;
+    }
+    to {
+        color: #FFFFE5;
+    }
+}
+.wel{
+    animation: welco 1s;
+    animation-iteration-count: infinite;
+}
+.get_started {
+    animation: tranInC 1s;
+    animation-timing-function: ease;
+}
+@keyframes tranInC {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.nav {
+    animation: tranN 1s;
+}
+@keyframes tranN {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX   (0);
+    }
+}
+/*
+.fed{
+    animation: tranF 1s;
+}
+@keyframes tranF {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+*/
+
+.conus h3{
+    color:#1f2833;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Biotif Black";
+}
+.conus h5{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Biotif Black";
+}
+.conus{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    padding-top: 6%;
+    background: #1f28334e;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0ms ease-in-out;
+}
+.conus:target{
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+.title {
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #FFFFE5;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+.title .close {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    transition: all 300ms;
+    font-size:25px;
+    font-weight:  bold;
+    color: #1f2833;
+    transition: all 1s ease-in-out;
+}
+.close:hover{
+    font-size:30px ;
+    transition: all 1s ease-in-out;
+}
+.conte{
+    max-height: 30%;
+    overflow: auto;
+}
+.conte{
+    border-radius: 5px;
+}
+form label{
+    font-family: "Biotif Black";
+    font-weight: bold;
+}
+textarea{
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+}
+button[type="submit"]{
+    background-color: #FFFFE5;
+    border-radius: 20px;
+    border:#1f2833 solid 2px;
+    padding: 15px 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Biotif Black";
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: 500px;
+    display: inline-block;
+    align-items: center;
+
+}
+button[type="submit"]:hover{
+    background-color: #1f2833;
+    color: #FFFFE5;
+    font-family: "Biotif Black";
+    transform: scale(101%);
+}
+footer{
+padding-top: 19%;
+color:#45a29e;
+text-align: center;
+
+}
+
+.ako{
+    display: flex;
+    position: absolute;
+    float: right;
+    max-height: 500px;
+    margin: -375px 1200px 0px 650px;
+    animation: aq 1.5s;
+}
+@keyframes aq {
+    from {
+        opacity: 0;
+
+        transform:rotate(18deg);
+    }
+    to {
+        opacity: 1;
+
+        transform: rotate(0deg);
+    }
+}
+.content p {
+    margin-right: 10px;
+}
+
+/* ABOUT  CSS  IS styleHome.css*/

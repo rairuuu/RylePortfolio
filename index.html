@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="icon" href="pics/cat icon.png">
+    </head>
+    <body>
+        <div class="cover" id="main">
+            <header>
+                <nav>
+                    <ul class="nav">
+                        <li class="h"><a href="index.html">Home</a></li>
+                        <li class="h"><a href="about.html">About</a></li>
+                        <li class="h"><a href="contacts.html">Contacts</a></li>
+                        <li class="fed"><a class= "fb" href="#sub"><button>Feedback</button></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+            <script>
+
+                $(window).scroll(function(){
+                    if($(window).scrollTop()){
+                        $("nav").addClass("scrll");
+                    }
+                    else{
+                        $("nav").removeClass("scrll");
+                    }
+                })
+
+            </script>
+            <main>
+                <div class="content">
+                    <p class="hello">HELLO<p>
+                    <span class="name">It's Ryle</span>
+                    
+                    <p class="dec">A Bachelor of Science in Information Technology Student at<br> Nueva Ecija University of Science and Technology.<br><span class="wel">Welcome to my Portfolio Website.</span> </p>
+                    <a class="get_started" href="about.html"><button>Learn More</button></a>
+                    <img src="pics/me pic.png" alt="pic ko" class="ako">
+                </div>
+                
+            </main>
+      
+        </div>
+        <div class="conus" id="sub">
+            <div class="title">
+                    <h3>Feedback</h3>
+                    <h5>Your feedback is important for improving my website.</h5>
+                    <a href="#" class="close">&times;</a>
+                <div class="cont">
+                    <div class="conte">
+                        <form action="#">
+                            <label>Enter your Feedback:</label>
+                            <textarea placeholder="Input Text Here.." rows="5"></textarea>
+                            <button type="submit">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <!--
+        <div id="home"  style="height: 100vh;">
+            <div class="container">
+                <
+            </div>
+        </div> 
+        -->
+        
+    </body>
+</html>

@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@keyframes cober{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+div{
+    margin-top: 6.5%;
+    text-align: center;
+    padding: auto;
+    font-weight: bold;
+    align-items: center;
+}
+.cover2{
+    background-image: url(pics/ABOUTBG.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 600vh;
+    animation: cober .75s;
+}
+
+.main2{
+    padding-top: -100%;
+    margin-top: -10;
+}
+.headerabt{
+    padding:0;
+    margin: 120px 200px 0px 200px;
+    /* background-color: #1f2833; */
+}
+.headerabt p {
+    font-weight: 100;
+}
+h3 {
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+}
+.me{
+    color: #66FCF1;
+}
+.pic2{
+    display: flex;
+    margin-top: -50px;
+}
+img{
+    max-height: 360px;
+    border-radius: 20px;
+    border: #66FCF1 solid 4px;
+    display: flex;
+    float: left;
+    margin: 0px 0px 0px 120px;
+    /*      top right bot left*/
+}
+.maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 65%;
+    margin: 140px 200px 0px 200px;
+}
+.text-box{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px; 
+    font-family: "Biotif Black";
+}
+.edu .text-box p {
+    font-family: "Biotif Black";
+}
+abbr {
+    color: #66FCF1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sklss li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px; 
+    font-size: 32px;
+}
+.skillstop{
+    padding:0;
+    margin: 140px 20px 50px 20px;
+}
+.sklss li{
+    color: #66FCF1;
+}
+
+.skillstop p {
+    font-weight: 100;
+}
+.secondContent {
+    margin: 140px 200px 50px 200px;
+}
+.contentS h3{
+    color: #66FCF1;
+    
+    
+}
+.contentS p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 100px 0 100px;
+}
+.contentS a {
+    font-size: 20px;
+    margin: 0 100px 0 100px;
+    color: #45a29e;
+}
+
+.exp{
+    padding: 0;
+    margin: 140px 200px 50px 200px;
+}
+.exp p{
+    font-weight: 100;
+}
+
+.edu h2 {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    font-weight: 30;
+}
+.bes {
+
+    max-width: 200px;
+    border: hidden 4px;
+    display: flex;
+    float: left;
+    padding:0 ;
+    /*xmargin: 0px 0px 0px 235px;*/
+    /*      top right bot left*/
+}
+
+.edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 65%;
+    margin: 100px 150px 0px 150px;
+    padding-right: 150px;
+}
+.edu .text-box{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: -200px; 
+}
+.edu .text-box h2{
+    color: #66FCF1;
+}
+
+.inthead{
+    padding: 0;
+    margin: 140px 200px 50px 200px;
+}
+.inthead p{
+    font-weight: 100;
+}
+.intcontent dl {
+    padding: 0;
+    margin: 0px 200px 50px 200px;
+}
+.intcontent dt {
+    font-family: 'Bebas Neue';
+    font-size: 33px;
+    font-weight: 30;
+    color: #66FCF1;
+}
+.intcontent dd {
+    font-family: 'Biotif Black';
+    text-align: center;
+    font-size: 20px;
+    margin: 0 100px 50px 100px;
+    font-weight: 600;
+
+}
+.intcontent a {
+    color: #45a29e;
+    font-size: 20px;
+}
+.dep {
+    font-family: 'Biotif Black';
+}
+.hd {
+    font-family: "Biotif";
+}
