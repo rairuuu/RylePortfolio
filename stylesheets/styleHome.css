@@ -25,7 +25,7 @@ div{
     background-size: cover;
     padding: 0;
     margin: 0;
-    height: 600vh;
+    max-height: fit-content;
     animation: cober .75s;
 }
 
@@ -43,7 +43,7 @@ div{
 }
 h3 {
     font-size: 50px;
-    font-family: 'Bebas Neue';
+    font-family: "Bebas Neue";
 }
 .me{
     color: #66FCF1;
@@ -74,10 +74,10 @@ img{
     font-size: 18px;
     margin-top: 10px;
     margin-left: 20px; 
-    font-family: "Biotif Black";
+    font-family: "Biotif Regular";
 }
 .edu .text-box p {
-    font-family: "Biotif Black";
+    font-family: "Biotif Regular";
 }
 abbr {
     color: #66FCF1;
@@ -112,14 +112,14 @@ abbr {
 .contentS p {
     font-size: 20px;
     text-align: justify;
-    margin: 0 100px 0 100px;
 }
 .contentS a {
     font-size: 20px;
-    margin: 0 100px 0 100px;
     color: #45a29e;
 }
-
+.contentS {
+    margin: 0 100px 0 100px;
+}
 .exp{
     padding: 0;
     margin: 140px 200px 50px 200px;
@@ -129,7 +129,7 @@ abbr {
 }
 
 .edu h2 {
-    font-family: 'Bebas Neue';
+    font-family: "Bebas Neue";
     font-size: 30px;
     font-weight: 30;
 }
@@ -148,10 +148,10 @@ abbr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 0 50px 0 50px;
     width: 65%;
-    margin: 100px 150px 0px 150px;
-    padding-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .edu .text-box{
     text-align: justify;
@@ -168,6 +168,9 @@ abbr {
     padding: 0;
     margin: 140px 200px 50px 200px;
 }
+.intcontent{
+    margin: 0 50px 30px 50px;
+}
 .inthead p{
     font-weight: 100;
 }
@@ -176,13 +179,13 @@ abbr {
     margin: 0px 200px 50px 200px;
 }
 .intcontent dt {
-    font-family: 'Bebas Neue';
+    font-family: "Bebas Neue";
     font-size: 33px;
     font-weight: 30;
     color: #66FCF1;
 }
 .intcontent dd {
-    font-family: 'Biotif Black';
+    font-family: 'Biotif Regular';
     text-align: center;
     font-size: 20px;
     margin: 0 100px 50px 100px;
@@ -197,5 +200,9 @@ abbr {
     font-family: 'Biotif Black';
 }
 .hd {
-    font-family: "Biotif";
+    font-family: "Biotif Black";
+}
+
+.contentS {
+    font-family: "Biotif Regular";
 }
