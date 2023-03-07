@@ -84,9 +84,11 @@ header {
     list-style: none;
     display: inline-block;
     padding: 0px 20px;
-    order: 1;
 }
 
+.dec {
+    font-style: "Biotif-Regular";
+}
 @keyframes bounce {
     0% {
         opacity: 1;
@@ -130,7 +132,6 @@ nav {
     height: 8%;
     margin-top: 15px;
 }
-
 nav ul {
     text-transform: uppercase  ;
     overflow: hidden;
@@ -139,21 +140,15 @@ nav ul {
 .scrll{
     display: flex;
     align-items: center;
-    background-color: #131414;
+    background-color: #1f2833;
     transition: all .25s ease-in-out;
-    margin-left:-189px;
-    margin-right: -205px;
-    margin-top:-3px;
-    padding-bottom: -40px;
-    margin-bottom: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
-    height: 8%;
-}
-
-
-.fed{
-    margin-left: 805px;
+    align-self: center;
+    align-content: center;
+    margin-left: 474px;
+    margin-right: -100%;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-align: center;
 }
 button{
     background-color: #66FCF1;
@@ -165,7 +160,11 @@ button{
     padding: 9px 25px;
     transition: all 0.3s ease 0s;
 }
-
+.fb {
+    position: absolute;
+    left:85%;
+    top: 15px;
+}
 .fb button:hover{
     background-color: #66fcf296;
 }
@@ -209,9 +208,8 @@ div{
 }
 
 .dec{
-    font-family: "Biotif";
+    font-family: "Biotif Regular";
     font-size: 18px;
-    font-weight: 12;
 }
 
 .get_started button{
@@ -238,7 +236,7 @@ div{
     height: 100vh;
     margin-bottom: -6.6%;
     animation: cober 1s;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 @keyframes cober{
     from{
