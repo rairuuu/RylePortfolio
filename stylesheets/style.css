@@ -1,10 +1,30 @@
-@import url('https://fonts.cdnfonts.com/css/bebas-neue');
 @font-face {
     font-family: "Biotif Black";
     src: url(fonts/Biotif-Black.ttf);
     src: url(fonts/Biotif-Black.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: "Biotif Regular";
+    src: url(fonts/Biotif-Regular.ttf);
+    src: url(fonts/Biotif-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(fonts/BebasNeue-Regular.ttf);
+    src: url(fonts/BebasNeue-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media only screen and (max-width: 1390px){
+    nav {
+        position: fixed;
+        padding-right: 0;
+    }
+
 }
 
 * {
